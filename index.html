@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Honeywell Speed Challenge</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 960px; height: 720px; background: #231F20"></canvas>
+    <script src="Build/63422732a7170889b6e08cc5a11a3caf.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/03678cf40c4aee477cb415097d3fb4db.unityweb",
+        frameworkUrl: "Build/41eaf7b994884340fac266ee69085b07.unityweb",
+        codeUrl: "Build/1ad7d6cb03dd1deea3580e5f3745391b.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Parachute Studios Ltd",
+        productName: "Honeywell Speed Challenge",
+        productVersion: "1.5",
+      });
+    </script>
+  </body>
+</html>
